@@ -1,11 +1,8 @@
+'use client';
+import EditorPlayground from './components/EditorPlayground';
+
 const Page = () => {
-
-    return (
-        <>
-            <h1>Hello world!!</h1>
-        </>
-    )
+  return <EditorPlayground />;
 };
-
 
 export default Page;
