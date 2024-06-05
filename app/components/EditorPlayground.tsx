@@ -8,6 +8,11 @@ function EditorPlayground() {
       defaultLanguage="javascript"
       defaultValue="console.log('Hello world!')"
       theme="vs-dark"
+      options={{
+        minimap: {
+          enabled: false,
+        },
+      }}
     />
   );
 }
