@@ -16,7 +16,7 @@ WORKDIR /playgroundjs
 RUN npm install --global pnpm@9.1.4
 
 # To run development
-# sudo docker build --no-cache -t playgroundjs:latest --target development .
+# sudo docker build --no-cache -t playgroundjs:development --target development .
 # sudo docker run type=bind,src=.,target=/playgroundjs -p 127.0.0.1:2020:2020 playgroundjs:latest
 FROM setup as development
 
