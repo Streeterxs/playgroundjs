@@ -1,5 +1,5 @@
 'use client';
-import EditorPlayground from './components/EditorPlayground';
+import EditorPlayground from './components/playground/EditorPlayground';
 
 const Page = () => {
   return <EditorPlayground />;
